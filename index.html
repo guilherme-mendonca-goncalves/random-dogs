@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello</h1>
-    <img id="target.image" src="" />
+    <h1 class="title">Olá!</h1>
+    <h2 class="title">Veja imagens aleatórias de cães.</h2>
+    <div class="image-wrapper">
+      <img id="target-image" class="target-image" src="" />
+      <p id="loading-text" class="loading-text">Carregando. . .</p>
+    </div>
+    <button id="button-load" type="button" onclick="handleButtonClick()">Carregar nova imagem</button>
   </body>
   <script type="text/javascript" src="script.js"></script>
 </html>
